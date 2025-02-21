@@ -70,18 +70,18 @@ export default async function Video({ params }: PageProps) {
         headline: `${file.file_title}`,
         image: file.splash_img,
         description: `${file.file_title} di ${SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma`,
-        url: `https://bokepsmaonline.pages.dev/v/${file.file_code}`,
+        url: `https://bokepsmaonlines.pages.dev/v/${file.file_code}`,
         datePublished: new Date(
             file.file_created + ".000Z"
         ).toISOString(),
         publisher: {
             '@type': 'Organization',
             name: `${SITENAME}`,
-            logo: 'https://bokepsmaonline.pages.dev/favicon.ico'},
+            logo: 'https://bokepsmaonlines.pages.dev/favicon.ico'},
             author: {
                 '@type': 'Person',
                 name: 'admin',
-                url: 'https://bokepsmaonline.pages.dev'
+                url: 'https://bokepsmaonlines.pages.dev'
               }
         }
         const jsonLd2 = {
@@ -90,24 +90,24 @@ export default async function Video({ params }: PageProps) {
         headline: `${file.file_title}`,
         image: file.player_img,
         description: `${file.title} di ${SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma`,
-        url: `https://bokepsmaonline.pages.dev/v/${file.file_code}`,
+        url: `https://bokepsmaonlines.pages.dev/v/${file.file_code}`,
         datePublished: new Date(
             file.file_created + ".000Z"
         ).toISOString(),
         publisher: {
             '@type': 'Organization',
             name: `${SITENAME}`,
-            logo: 'https://bokepsmaonline.pages.dev/favicon.ico'},
+            logo: 'https://bokepsmaonlines.pages.dev/favicon.ico'},
         author: {
                 '@type': 'Person',
                 name: 'admin',
-                url: 'https://bokepsmaonline.pages.dev'},
+                url: 'https://bokepsmaonlines.pages.dev'},
         interactionStatistic: {
             '@type': `InteractionCounter`,
                 userInteractionCount: `${file.file_views}`,
             interactionType: {
                 '@type': `ReadAction`,
-                target: `https://bokepsmaonline.pages.dev/v/${file.file_code}`
+                target: `https://bokepsmaonlines.pages.dev/v/${file.file_code}`
             }  
         }
         }
@@ -154,7 +154,7 @@ export default async function Video({ params }: PageProps) {
             <h2 className="text-2xl font-bold text-center my-4">Related Video {file.file_title}
             </h2>
             <SearchCardList query={file.file_title.split(" ")[2]} />
-<Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2x294z2b4&u=http%3A%2F%2Fwww.juicyads.rocks"/>
+<script type='text/javascript' src='//pl16170729.effectiveratecpm.com/b3/45/84/b345842bfb07df1db75bfcf1a898e0da.js'></script>
             </div>
             );
 }
